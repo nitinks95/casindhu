@@ -1,0 +1,767 @@
+/* --------------------------------
+
+Nucleo Outline Web Font - nucleoapp.com/
+License - nucleoapp.com/license/
+Created using IcoMoon - icomoon.io
+
+-------------------------------- */
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url("/src/fonts/nucleo-outline.eot");
+  src: url("/src/fonts/nucleo-outline.eot") format("embedded-opentype"), url("/src/fonts/nucleo-outline.woff2") format("woff2"), url("/src/fonts/nucleo-outline.woff") format("woff"), url("/src/fonts/nucleo-outline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*------------------------
+	base class definition
+-------------------------*/
+.now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*------------------------
+  change icon size
+-------------------------*/
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.now-ui-icons.circle {
+  padding: 0.33333333em;
+  vertical-align: -16%;
+  background-color: #eee; }
+
+.now-ui-icons.circle {
+  border-radius: 50%; }
+
+/*------------------------
+  list icons
+-------------------------*/
+.nc-icon-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none; }
+
+.nc-icon-ul > li {
+  position: relative; }
+
+.nc-icon-ul > li > .now-ui-icons {
+  position: absolute;
+  left: -1.57142857em;
+  top: 0.14285714em;
+  text-align: center; }
+
+.nc-icon-ul > li > .now-ui-icons.circle {
+  top: -0.19047619em;
+  left: -1.9047619em; }
+
+/*------------------------
+  spinning icons
+-------------------------*/
+.now-ui-icons.spin {
+  -webkit-animation: nc-icon-spin 2s infinite linear;
+  -moz-animation: nc-icon-spin 2s infinite linear;
+  animation: nc-icon-spin 2s infinite linear; }
+
+@-webkit-keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes nc-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(360deg); } }
+
+@keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+/*------------------------
+	font icons
+-------------------------*/
+.now-ui-icons.ui-1_check:before {
+  content: "\ea22"; }
+
+.now-ui-icons.ui-1_email-85:before {
+  content: "\ea2a"; }
+
+.now-ui-icons.arrows-1_cloud-download-93:before {
+  content: "\ea21"; }
+
+.now-ui-icons.arrows-1_cloud-upload-94:before {
+  content: "\ea24"; }
+
+.now-ui-icons.arrows-1_minimal-down:before {
+  content: "\ea39"; }
+
+.now-ui-icons.arrows-1_minimal-left:before {
+  content: "\ea3a"; }
+
+.now-ui-icons.arrows-1_minimal-right:before {
+  content: "\ea3b"; }
+
+.now-ui-icons.arrows-1_minimal-up:before {
+  content: "\ea3c"; }
+
+.now-ui-icons.arrows-1_refresh-69:before {
+  content: "\ea44"; }
+
+.now-ui-icons.arrows-1_share-66:before {
+  content: "\ea4c"; }
+
+.now-ui-icons.business_badge:before {
+  content: "\ea09"; }
+
+.now-ui-icons.business_bank:before {
+  content: "\ea0a"; }
+
+.now-ui-icons.business_briefcase-24:before {
+  content: "\ea13"; }
+
+.now-ui-icons.business_bulb-63:before {
+  content: "\ea15"; }
+
+.now-ui-icons.business_chart-bar-32:before {
+  content: "\ea1e"; }
+
+.now-ui-icons.business_chart-pie-36:before {
+  content: "\ea1f"; }
+
+.now-ui-icons.business_globe:before {
+  content: "\ea2f"; }
+
+.now-ui-icons.business_money-coins:before {
+  content: "\ea40"; }
+
+.now-ui-icons.clothes_tie-bow:before {
+  content: "\ea5b"; }
+
+.now-ui-icons.design_vector:before {
+  content: "\ea61"; }
+
+.now-ui-icons.design_app:before {
+  content: "\ea08"; }
+
+.now-ui-icons.design_bullet-list-67:before {
+  content: "\ea14"; }
+
+.now-ui-icons.design_image:before {
+  content: "\ea33"; }
+
+.now-ui-icons.design_palette:before {
+  content: "\ea41"; }
+
+.now-ui-icons.design_scissors:before {
+  content: "\ea4a"; }
+
+.now-ui-icons.design-2_html5:before {
+  content: "\ea32"; }
+
+.now-ui-icons.design-2_ruler-pencil:before {
+  content: "\ea48"; }
+
+.now-ui-icons.emoticons_satisfied:before {
+  content: "\ea49"; }
+
+.now-ui-icons.files_box:before {
+  content: "\ea12"; }
+
+.now-ui-icons.files_paper:before {
+  content: "\ea43"; }
+
+.now-ui-icons.files_single-copy-04:before {
+  content: "\ea52"; }
+
+.now-ui-icons.health_ambulance:before {
+  content: "\ea07"; }
+
+.now-ui-icons.loader_gear:before {
+  content: "\ea4e"; }
+
+.now-ui-icons.loader_refresh:before {
+  content: "\ea44"; }
+
+.now-ui-icons.location_bookmark:before {
+  content: "\ea10"; }
+
+.now-ui-icons.location_compass-05:before {
+  content: "\ea25"; }
+
+.now-ui-icons.location_map-big:before {
+  content: "\ea3d"; }
+
+.now-ui-icons.location_pin:before {
+  content: "\ea47"; }
+
+.now-ui-icons.location_world:before {
+  content: "\ea63"; }
+
+.now-ui-icons.media-1_album:before {
+  content: "\ea02"; }
+
+.now-ui-icons.media-1_button-pause:before {
+  content: "\ea16"; }
+
+.now-ui-icons.media-1_button-play:before {
+  content: "\ea18"; }
+
+.now-ui-icons.media-1_button-power:before {
+  content: "\ea19"; }
+
+.now-ui-icons.media-1_camera-compact:before {
+  content: "\ea1c"; }
+
+.now-ui-icons.media-2_note-03:before {
+  content: "\ea3f"; }
+
+.now-ui-icons.media-2_sound-wave:before {
+  content: "\ea57"; }
+
+.now-ui-icons.objects_diamond:before {
+  content: "\ea29"; }
+
+.now-ui-icons.objects_globe:before {
+  content: "\ea2f"; }
+
+.now-ui-icons.objects_key-25:before {
+  content: "\ea38"; }
+
+.now-ui-icons.objects_planet:before {
+  content: "\ea46"; }
+
+.now-ui-icons.objects_spaceship:before {
+  content: "\ea55"; }
+
+.now-ui-icons.objects_support-17:before {
+  content: "\ea56"; }
+
+.now-ui-icons.objects_umbrella-13:before {
+  content: "\ea5f"; }
+
+.now-ui-icons.education_agenda-bookmark:before {
+  content: "\ea01"; }
+
+.now-ui-icons.education_atom:before {
+  content: "\ea0c"; }
+
+.now-ui-icons.education_glasses:before {
+  content: "\ea2d"; }
+
+.now-ui-icons.education_hat:before {
+  content: "\ea30"; }
+
+.now-ui-icons.education_paper:before {
+  content: "\ea42"; }
+
+.now-ui-icons.shopping_bag-16:before {
+  content: "\ea0d"; }
+
+.now-ui-icons.shopping_basket:before {
+  content: "\ea0b"; }
+
+.now-ui-icons.shopping_box:before {
+  content: "\ea11"; }
+
+.now-ui-icons.shopping_cart-simple:before {
+  content: "\ea1d"; }
+
+.now-ui-icons.shopping_credit-card:before {
+  content: "\ea28"; }
+
+.now-ui-icons.shopping_delivery-fast:before {
+  content: "\ea27"; }
+
+.now-ui-icons.shopping_shop:before {
+  content: "\ea50"; }
+
+.now-ui-icons.shopping_tag-content:before {
+  content: "\ea59"; }
+
+.now-ui-icons.sport_trophy:before {
+  content: "\ea5d"; }
+
+.now-ui-icons.sport_user-run:before {
+  content: "\ea60"; }
+
+.now-ui-icons.tech_controller-modern:before {
+  content: "\ea26"; }
+
+.now-ui-icons.tech_headphones:before {
+  content: "\ea31"; }
+
+.now-ui-icons.tech_laptop:before {
+  content: "\ea36"; }
+
+.now-ui-icons.tech_mobile:before {
+  content: "\ea3e"; }
+
+.now-ui-icons.tech_tablet:before {
+  content: "\ea58"; }
+
+.now-ui-icons.tech_tv:before {
+  content: "\ea5e"; }
+
+.now-ui-icons.tech_watch-time:before {
+  content: "\ea62"; }
+
+.now-ui-icons.text_align-center:before {
+  content: "\ea05"; }
+
+.now-ui-icons.text_align-left:before {
+  content: "\ea06"; }
+
+.now-ui-icons.text_bold:before {
+  content: "\ea0e"; }
+
+.now-ui-icons.text_caps-small:before {
+  content: "\ea1b"; }
+
+.now-ui-icons.gestures_tap-01:before {
+  content: "\ea5a"; }
+
+.now-ui-icons.transportation_air-baloon:before {
+  content: "\ea03"; }
+
+.now-ui-icons.transportation_bus-front-12:before {
+  content: "\ea17"; }
+
+.now-ui-icons.travel_info:before {
+  content: "\ea04"; }
+
+.now-ui-icons.travel_istanbul:before {
+  content: "\ea34"; }
+
+.now-ui-icons.ui-1_bell-53:before {
+  content: "\ea0f"; }
+
+.now-ui-icons.ui-1_calendar-60:before {
+  content: "\ea1a"; }
+
+.now-ui-icons.ui-1_lock-circle-open:before {
+  content: "\ea35"; }
+
+.now-ui-icons.ui-1_send:before {
+  content: "\ea4d"; }
+
+.now-ui-icons.ui-1_settings-gear-63:before {
+  content: "\ea4e"; }
+
+.now-ui-icons.ui-1_simple-add:before {
+  content: "\ea4f"; }
+
+.now-ui-icons.ui-1_simple-delete:before {
+  content: "\ea54"; }
+
+.now-ui-icons.ui-1_simple-remove:before {
+  content: "\ea53"; }
+
+.now-ui-icons.ui-1_zoom-bold:before {
+  content: "\ea64"; }
+
+.now-ui-icons.ui-2_chat-round:before {
+  content: "\ea20"; }
+
+.now-ui-icons.ui-2_favourite-28:before {
+  content: "\ea2b"; }
+
+.now-ui-icons.ui-2_like:before {
+  content: "\ea37"; }
+
+.now-ui-icons.ui-2_settings-90:before {
+  content: "\ea4b"; }
+
+.now-ui-icons.ui-2_time-alarm:before {
+  content: "\ea5c"; }
+
+.now-ui-icons.users_circle-08:before {
+  content: "\ea23"; }
+
+.now-ui-icons.users_single-02:before {
+  content: "\ea51"; }
+
+.all-icons .font-icon-detail {
+  text-align: center;
+  padding: 45px 0px 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.1875rem;
+  margin: 15px 0;
+  min-height: 168px; }
+
+.all-icons [class*="now-ui-icons"] {
+  font-size: 32px; }
+
+.all-icons .font-icon-detail p {
+  margin: 25px auto 0;
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: #B8B8B8;
+  padding: 0 10px;
+  font-size: 0.7142em; }
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+ html.nucleo-icons-page-styles {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.nucleo-icons-page-styles body, .nucleo-icons-page-styles div, .nucleo-icons-page-styles span, .nucleo-icons-page-styles applet, .nucleo-icons-page-styles object, .nucleo-icons-page-styles iframe, .nucleo-icons-page-styles h1, .nucleo-icons-page-styles h2, .nucleo-icons-page-styles h3, .nucleo-icons-page-styles h4, .nucleo-icons-page-styles h5, .nucleo-icons-page-styles h6, .nucleo-icons-page-styles p, .nucleo-icons-page-styles blockquote, .nucleo-icons-page-styles pre, .nucleo-icons-page-styles a, .nucleo-icons-page-styles abbr, .nucleo-icons-page-styles acronym, .nucleo-icons-page-styles address, .nucleo-icons-page-styles big, .nucleo-icons-page-styles cite, .nucleo-icons-page-styles code, .nucleo-icons-page-styles del, .nucleo-icons-page-styles dfn, .nucleo-icons-page-styles em, .nucleo-icons-page-styles img, .nucleo-icons-page-styles ins, .nucleo-icons-page-styles kbd, .nucleo-icons-page-styles q, .nucleo-icons-page-styles s, .nucleo-icons-page-styles samp, .nucleo-icons-page-styles small, .nucleo-icons-page-styles strike, .nucleo-icons-page-styles strong, .nucleo-icons-page-styles sub, .nucleo-icons-page-styles sup, .nucleo-icons-page-styles tt, .nucleo-icons-page-styles var, .nucleo-icons-page-styles b, .nucleo-icons-page-styles u, .nucleo-icons-page-styles i, .nucleo-icons-page-styles center, .nucleo-icons-page-styles dl, .nucleo-icons-page-styles dt, .nucleo-icons-page-styles dd, .nucleo-icons-page-styles ol, .nucleo-icons-page-styles ul, .nucleo-icons-page-styles li, .nucleo-icons-page-styles fieldset, .nucleo-icons-page-styles form, .nucleo-icons-page-styles label, .nucleo-icons-page-styles legend, .nucleo-icons-page-styles table, .nucleo-icons-page-styles caption, .nucleo-icons-page-styles tbody, .nucleo-icons-page-styles tfoot, .nucleo-icons-page-styles thead, .nucleo-icons-page-styles tr, .nucleo-icons-page-styles th, .nucleo-icons-page-styles td, .nucleo-icons-page-styles article, .nucleo-icons-page-styles aside, .nucleo-icons-page-styles canvas, .nucleo-icons-page-styles details, .nucleo-icons-page-styles embed, .nucleo-icons-page-styles figure, .nucleo-icons-page-styles figcaption, .nucleo-icons-page-styles footer, .nucleo-icons-page-styles header, .nucleo-icons-page-styles hgroup, .nucleo-icons-page-styles menu, .nucleo-icons-page-styles nav, .nucleo-icons-page-styles output, .nucleo-icons-page-styles ruby, .nucleo-icons-page-styles section, .nucleo-icons-page-styles summary, .nucleo-icons-page-styles time, .nucleo-icons-page-styles mark, .nucleo-icons-page-styles audio, .nucleo-icons-page-styles video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.nucleo-icons-page-styles article, .nucleo-icons-page-styles aside, .nucleo-icons-page-styles details, .nucleo-icons-page-styles figcaption, .nucleo-icons-page-styles figure, .nucleo-icons-page-styles footer, .nucleo-icons-page-styles header, .nucleo-icons-page-styles hgroup, .nucleo-icons-page-styles menu, .nucleo-icons-page-styles nav, .nucleo-icons-page-styles section, .nucleo-icons-page-styles main {
+  display: block;
+}
+.nucleo-icons-page-styles body {
+  line-height: 1;
+}
+.nucleo-icons-page-styles ol, .nucleo-icons-page-styles ul {
+  list-style: none;
+}
+.nucleo-icons-page-styles blockquote, .nucleo-icons-page-styles q {
+  quotes: none;
+}
+.nucleo-icons-page-styles blockquote:before, .nucleo-icons-page-styles blockquote:after, .nucleo-icons-page-styles q:before, .nucleo-icons-page-styles q:after {
+  content: '';
+  content: none;
+}
+.nucleo-icons-page-styles table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* --------------------------------
+ Nucleo Outline Web Font - nucleoapp.com/
+ License - nucleoapp.com/license/
+ Created using IcoMoon - icomoon.io
+ -------------------------------- */
+/* --------------------------------
+ Primary style
+ -------------------------------- */
+.nucleo-icons-page-styles *, .nucleo-icons-page-styles *::after, .nucleo-icons-page-styles *::before {
+  box-sizing: border-box;
+}
+html.nucleo-icons-page-styles {
+  font-size: 62.5%;
+}
+.nucleo-icons-page-styles body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333;
+  background: #efefef;
+}
+.nucleo-icons-page-styles a {
+  color: #766acf;
+  text-decoration: none;
+}
+/* --------------------------------
+ Main components
+ -------------------------------- */
+.nucleo-icons-page-styles header {
+  text-align: center;
+  padding: 120px 0 0;
+}
+.nucleo-icons-page-styles header h1 {
+  font-size: 2rem;
+}
+.nucleo-icons-page-styles header p {
+  font-size: 1.4rem;
+  margin-top: 0.6em;
+}
+.nucleo-icons-page-styles header a:hover {
+  text-decoration: underline;
+}
+.nucleo-icons-page-styles section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.nucleo-icons-page-styles section h2 {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 0 0 1em 0.2em;
+  margin-bottom: 1em;
+}
+.nucleo-icons-page-styles ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.nucleo-icons-page-styles ul li {
+  width: 25%;
+  float: left;
+  padding: 16px 0;
+  text-align: center;
+  border-radius: 0.25em;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+.nucleo-icons-page-styles ul li:hover {
+  background: #dbdbdb;
+}
+.nucleo-icons-page-styles ul p, .nucleo-icons-page-styles ul em, .nucleo-icons-page-styles ul input {
+  display: inline-block;
+  font-size: 1rem;
+  color: #999;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.nucleo-icons-page-styles ul p {
+  padding: 10px;
+  margin-top: 10px;
+}
+.nucleo-icons-page-styles ul p::selection, .nucleo-icons-page-styles ul em::selection {
+  background: #766acf;
+  color: #efefef;
+}
+.nucleo-icons-page-styles ul em {
+  margin-bottom: 8px;
+}
+.nucleo-icons-page-styles ul em::before {
+  content: '[';
+}
+.nucleo-icons-page-styles ul em::after {
+  content: ']';
+}
+.nucleo-icons-page-styles ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+@media only screen and (min-width: 768px) {
+  .nucleo-icons-page-styles ul li {
+    width: 20%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .nucleo-icons-page-styles ul li {
+    width: 12.5%;
+    float: left;
+    padding: 32px 0;
+  }
+}
+/* --------------------------------
+ Smart fixed navigation
+ -------------------------------- */
+.nucleo-icons-page-styles {
+  /* mobile first */
+}
+.nucleo-icons-page-styles #cd-nav ul {
+  position: fixed;
+  width: 90%;
+  max-width: 400px;
+  max-height: 90%;
+  right: 5%;
+  bottom: 5%;
+  border-radius: 0.25em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  visibility: hidden;
+  /* remove overflow:hidden if you want to create a drop-down menu - but then remember to fix/eliminate the list items animation */
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transition: -webkit-transform 0.3s, visibility 0s 0.3s;
+  -moz-transition: -moz-transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+}
+.nucleo-icons-page-styles #cd-nav ul li {
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: block;
+  width: 100%;
+  padding: 0;
+  text-align: left;
+}
+.nucleo-icons-page-styles #cd-nav ul li:hover {
+  background-color: #fff;
+}
+.nucleo-icons-page-styles #cd-nav ul.is-visible {
+  visibility: visible;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.3s, visibility 0s 0s;
+  -moz-transition: -moz-transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+}
+.nucleo-icons-page-styles #cd-nav li a {
+  display: block;
+  padding: 1em;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #eff2f6;
+}
+.nucleo-icons-page-styles #cd-nav li a:hover {
+  color: #333;
+}
+.nucleo-icons-page-styles #cd-nav li:last-child a {
+  border-bottom: none;
+}
+.nucleo-icons-page-styles .cd-nav-trigger {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 44px;
+  height: 44px;
+  background: white;
+  border-radius: 0.25em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* image replacement */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  z-index: 2;
+}
+.nucleo-icons-page-styles .cd-nav-trigger span {
+  /* the span element is used to create the menu icon */
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #333;
+  top: 50%;
+  margin-top: -1px;
+  left: 50%;
+  margin-left: -10px;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+}
+.nucleo-icons-page-styles .cd-nav-trigger span::before, .nucleo-icons-page-styles .cd-nav-trigger span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  background: inherit;
+  width: 100%;
+  height: 100%;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s, background 0s;
+  -moz-transition: -moz-transform 0.3s, background 0s;
+  transition: transform 0.3s, background 0s;
+}
+.nucleo-icons-page-styles .cd-nav-trigger span::before {
+  top: -6px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+.nucleo-icons-page-styles .cd-nav-trigger span::after {
+  bottom: -6px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+.nucleo-icons-page-styles .cd-nav-trigger.menu-is-open {
+  box-shadow: none;
+}
+.nucleo-icons-page-styles .cd-nav-trigger.menu-is-open span {
+  background: rgba(232, 74, 100, 0);
+}
+.nucleo-icons-page-styles .cd-nav-trigger.menu-is-open span::before, .nucleo-icons-page-styles .cd-nav-trigger.menu-is-open span::after {
+  background: #333;
+}
+.nucleo-icons-page-styles .cd-nav-trigger.menu-is-open span::before {
+  top: 0;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.nucleo-icons-page-styles .cd-nav-trigger.menu-is-open span::after {
+  bottom: 0;
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+.nucleo-icons-page-styles .now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 32px/1 'Nucleo Outline';
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
