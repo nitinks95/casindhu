@@ -1,0 +1,46 @@
+/*-----------------------------------------------------------------------------------*/
+/*	NAVBAR
+/*-----------------------------------------------------------------------------------*/
+
+
+.navbar-styling {
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    min-height: 53px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
+    background-color: #FFF9EE;
+}
+
+
+.navbar-brand-styling {
+    text-transform: uppercase;
+    font-size: .8571em;
+    color: black;
+}
+
+.navbar-brand-styling-span {
+    font-size: 26px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	display:inline-block;
+	padding-right:18px;
+}
+
+.b1 {font-weight:900;}
+.b2 {font-weight:700;}
+.b3 {font-weight:400;}
+.b4 {font-weight:300;}
+.b5 {font-weight:100;}
+
+.navitem-super-styling {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.navitem-styling {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	display:inline-block;
+}
